@@ -1,20 +1,12 @@
-import java.util.Date
 
 object Hello {
   def main(args: Array[String]): Unit = {
-    println("Hello world")
-
-    new Date();
-    new DateTime.now();
-
-    import java.text.SimpleDateFormat
-
-    val format = new SimpleDateFormat("dd/mm/yy")
-    val date = format.parse("31/12/19")
-    println(date.toString())
+//    println("Hello world")
+//    val result = far(32)
+//    println(result)
   }
 
-  /** Converting celcuis to farhrenheit */
+  /** Converting Celsius to Fahrenheit */
   def far(temp: Double): Double = (temp * 9/5) + 32
 
 }
